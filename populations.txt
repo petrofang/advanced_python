@@ -1,0 +1,194 @@
+Population                                 Country
+ 1355.70M                                    China
+ 1236.30M                                    India
+  318.90M                            United States
+  253.60M                                Indonesia
+  202.70M                                   Brazil
+  196.20M                                 Pakistan
+  177.20M                                  Nigeria
+  166.30M                               Bangladesh
+  142.50M                       Russian Federation
+  127.10M                                    Japan
+  120.30M                                   Mexico
+  107.70M                              Philippines
+   96.60M                                 Ethiopia
+   93.40M                                  Vietnam
+   86.90M                                    Egypt
+   81.60M                                   Turkey
+   81.00M                                  Germany
+   80.80M                                     Iran
+   77.40M         Democratic Republic of the Congo
+   67.70M                                 Thailand
+   66.70M                           United Kingdom
+   66.30M                                   France
+   61.70M                                    Italy
+   55.70M                                  Myanmar
+   50.00M              United Republic of Tanzania
+   49.00M                        Republic of Korea
+   48.40M                             South Africa
+   47.70M                                    Spain
+   46.20M                                 Colombia
+   45.00M                                    Kenya
+   44.30M                                  Ukraine
+   44.00M                                Argentina
+   38.30M                                  Algeria
+   38.30M                                   Poland
+   35.90M                                   Uganda
+   35.50M                                    Sudan
+   34.80M                                   Canada
+   33.00M                                  Morocco
+   32.60M                                     Iraq
+   31.80M                              Afghanistan
+   31.00M                                    Nepal
+   30.10M                                 Malaysia
+   30.10M                                     Peru
+   28.90M                               Uzbekistan
+   28.90M                                Venezuela
+   27.30M                             Saudi Arabia
+   26.10M                                    Yemen
+   25.80M                                    Ghana
+   24.90M    Democratic People's Republic of Korea
+   24.70M                               Mozambique
+   23.20M                               Madagascar
+   23.10M                                 Cameroon
+   22.90M                                Sri Lanka
+   22.80M                            Cote D'Ivoire
+   22.50M                                Australia
+   21.70M                                  Romania
+   19.10M                                   Angola
+   18.40M                             Burkina Faso
+   18.00M                               Kazakhstan
+   18.00M                     Syrian Arab Republic
+   17.50M                                    Niger
+   17.40M                                    Chile
+   17.40M                                   Malawi
+   16.59M                              Netherlands
+   16.50M                                     Mali
+   15.50M                                 Cambodia
+   14.70M                                Guatemala
+   14.70M                                   Zambia
+   14.00M                                  Ecuador
+   13.80M                                 Zimbabwe
+   13.60M                                  Senegal
+   12.30M                                   Rwanda
+   11.80M                                   Greece
+   11.60M                              South Sudan
+   11.50M                                   Guinea
+   11.40M                                     Chad
+   11.00M                                     Cuba
+   10.90M                                 Portugal
+   10.90M                                  Tunisia
+   10.60M                                  Bolivia
+   10.60M                           Czech Republic
+   10.40M                                  Belgium
+   10.40M                                  Burundi
+   10.40M                       Dominican Republic
+   10.40M                                  Somalia
+   10.20M                                    Benin
+   10.20M                                    Haiti
+   10.00M                                  Hungary
+    9.70M                               Azerbaijan
+    9.70M                                   Sweden
+    9.60M                                  Belarus
+    8.60M                                 Honduras
+    8.20M                                  Austria
+    8.10M                              Switzerland
+    8.10M                               Tajikistan
+    7.90M                                   Jordan
+    7.80M                                   Israel
+    7.40M                                     Togo
+    7.20M                                   Serbia
+    6.90M                                 Bulgaria
+    6.80M         Lao People's Democratic Republic
+    6.70M                                 Paraguay
+    6.60M                         Papua New Guinea
+    6.30M                                  Eritrea
+    6.20M                              El Salvador
+    6.20M                   Libyan Arab Jamahiriya
+    6.10M                                Nicaragua
+    5.90M                                  Lebanon
+    5.70M                             Sierra Leone
+    5.60M                                  Denmark
+    5.60M                               Kyrgyzstan
+    5.60M                                Singapore
+    5.60M                     United Arab Emirates
+    5.40M                                 Slovakia
+    5.30M                 Central African Republic
+    5.30M                                  Finland
+    5.10M                                   Norway
+    5.10M                             Turkmenistan
+    4.90M                                  Georgia
+    4.80M                               Costa Rica
+    4.80M                                  Ireland
+    4.70M                    Republic of the Congo
+    4.50M                                  Croatia
+    4.40M                              New Zealand
+    4.10M                                  Liberia
+    3.90M                   Bosnia and Herzegovina
+    3.60M                                   Panama
+    3.60M                      Republic of Moldova
+    3.50M                                Lithuania
+    3.50M                               Mauritania
+    3.30M                                  Uruguay
+    3.20M                                     Oman
+    3.10M                                  Armenia
+    3.00M                                  Albania
+    3.00M                                 Mongolia
+    2.90M                                  Jamaica
+    2.70M                                   Kuwait
+    2.20M                                 Botswana
+    2.20M                                   Latvia
+    2.20M                                  Namibia
+    2.10M                                    Qatar
+    2.10M                The Republic of Macedonia
+    2.00M                                 Slovenia
+    1.90M                                   Gambia
+    1.90M                                  Lesotho
+    1.70M                                    Gabon
+    1.70M                            Guinea Bissau
+    1.40M                                Swaziland
+    1.30M                                  Bahrain
+    1.30M                                  Estonia
+    1.30M                                Mauritius
+    1.20M                                   Cyprus
+    1.20M                              Timor-Leste
+    1.20M                      Trinidad and Tobago
+    0.90M                                     Fiji
+    0.81M                                 Djibouti
+    0.77M                                  Comoros
+    0.74M                                   Guyana
+    0.73M                                   Bhutan
+    0.72M                        Equatorial Guinea
+    0.65M                               Montenegro
+    0.61M                          Solomon Islands
+    0.57M                                 Suriname
+    0.54M                               Cape Verde
+    0.52M                               Luxembourg
+    0.42M                        Brunei Darussalam
+    0.41M                                    Malta
+    0.39M                                 Maldives
+    0.34M                                   Belize
+    0.32M                                  Bahamas
+    0.32M                                  Iceland
+    0.29M                                 Barbados
+    0.27M                                  Vanuatu
+    0.20M                                    Samoa
+    0.19M                    Sao Tome and Principe
+    0.16M                              Saint Lucia
+    0.11M                                  Grenada
+    0.11M                               Micronesia
+    0.11M                                    Tonga
+    0.10M                                 Kiribati
+    0.10M         Saint Vincent and the Grenadines
+    0.09M                               Seychelles
+    0.09M                      Antigua and Barbuda
+    0.09M                                  Andorra
+    0.07M                                 Dominica
+    0.07M                         Marshall Islands
+    0.05M                    Saint Kitts and Nevis
+    0.04M                            Liechtenstein
+    0.03M                               San Marino
+    0.03M                                   Monaco
+    0.02M                                    Palau
+    0.01M                                   Tuvalu
+    0.01M                                    Nauru
