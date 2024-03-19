@@ -1,0 +1,194 @@
+Population                              Country
+1355.70M                                  China
+1236.30M                                  India
+318.90 M                          United States
+253.60 M                              Indonesia
+202.70 M                                 Brazil
+196.20 M                               Pakistan
+177.20 M                                Nigeria
+166.30 M                             Bangladesh
+142.50 M                     Russian Federation
+127.10 M                                  Japan
+120.30 M                                 Mexico
+107.70 M                            Philippines
+96.60  M                               Ethiopia
+93.40  M                                Vietnam
+86.90  M                                  Egypt
+81.60  M                                 Turkey
+81.00  M                                Germany
+80.80  M                                   Iran
+77.40  M       Democratic Republic of the Congo
+67.70  M                               Thailand
+66.70  M                         United Kingdom
+66.30  M                                 France
+61.70  M                                  Italy
+55.70  M                                Myanmar
+50.00  M            United Republic of Tanzania
+49.00  M                      Republic of Korea
+48.40  M                           South Africa
+47.70  M                                  Spain
+46.20  M                               Colombia
+45.00  M                                  Kenya
+44.30  M                                Ukraine
+44.00  M                              Argentina
+38.30  M                                 Poland
+38.30  M                                Algeria
+35.90  M                                 Uganda
+35.50  M                                  Sudan
+34.80  M                                 Canada
+33.00  M                                Morocco
+32.60  M                                   Iraq
+31.80  M                            Afghanistan
+31.00  M                                  Nepal
+30.10  M                                   Peru
+30.10  M                               Malaysia
+28.90  M                              Venezuela
+28.90  M                             Uzbekistan
+27.30  M                           Saudi Arabia
+26.10  M                                  Yemen
+25.80  M                                  Ghana
+24.90  M  Democratic People's Republic of Korea
+24.70  M                             Mozambique
+23.20  M                             Madagascar
+23.10  M                               Cameroon
+22.90  M                              Sri Lanka
+22.80  M                          Cote D'Ivoire
+22.50  M                              Australia
+21.70  M                                Romania
+19.10  M                                 Angola
+18.40  M                           Burkina Faso
+18.00  M                   Syrian Arab Republic
+18.00  M                             Kazakhstan
+17.50  M                                  Niger
+17.40  M                                 Malawi
+17.40  M                                  Chile
+16.59  M                            Netherlands
+16.50  M                                   Mali
+15.50  M                               Cambodia
+14.70  M                                 Zambia
+14.70  M                              Guatemala
+14.00  M                                Ecuador
+13.80  M                               Zimbabwe
+13.60  M                                Senegal
+12.30  M                                 Rwanda
+11.80  M                                 Greece
+11.60  M                            South Sudan
+11.50  M                                 Guinea
+11.40  M                                   Chad
+11.00  M                                   Cuba
+10.90  M                                Tunisia
+10.90  M                               Portugal
+10.60  M                         Czech Republic
+10.60  M                                Bolivia
+10.40  M                                Somalia
+10.40  M                     Dominican Republic
+10.40  M                                Burundi
+10.40  M                                Belgium
+10.20  M                                  Haiti
+10.20  M                                  Benin
+10.00  M                                Hungary
+9.70   M                                 Sweden
+9.70   M                             Azerbaijan
+9.60   M                                Belarus
+8.60   M                               Honduras
+8.20   M                                Austria
+8.10   M                             Tajikistan
+8.10   M                            Switzerland
+7.90   M                                 Jordan
+7.80   M                                 Israel
+7.40   M                                   Togo
+7.20   M                                 Serbia
+6.90   M                               Bulgaria
+6.80   M       Lao People's Democratic Republic
+6.70   M                               Paraguay
+6.60   M                       Papua New Guinea
+6.30   M                                Eritrea
+6.20   M                 Libyan Arab Jamahiriya
+6.20   M                            El Salvador
+6.10   M                              Nicaragua
+5.90   M                                Lebanon
+5.70   M                           Sierra Leone
+5.60   M                   United Arab Emirates
+5.60   M                              Singapore
+5.60   M                             Kyrgyzstan
+5.60   M                                Denmark
+5.40   M                               Slovakia
+5.30   M                                Finland
+5.30   M               Central African Republic
+5.10   M                           Turkmenistan
+5.10   M                                 Norway
+4.90   M                                Georgia
+4.80   M                                Ireland
+4.80   M                             Costa Rica
+4.70   M                  Republic of the Congo
+4.50   M                                Croatia
+4.40   M                            New Zealand
+4.10   M                                Liberia
+3.90   M                 Bosnia and Herzegovina
+3.60   M                    Republic of Moldova
+3.60   M                                 Panama
+3.50   M                             Mauritania
+3.50   M                              Lithuania
+3.30   M                                Uruguay
+3.20   M                                   Oman
+3.10   M                                Armenia
+3.00   M                               Mongolia
+3.00   M                                Albania
+2.90   M                                Jamaica
+2.70   M                                 Kuwait
+2.20   M                                Namibia
+2.20   M                                 Latvia
+2.20   M                               Botswana
+2.10   M              The Republic of Macedonia
+2.10   M                                  Qatar
+2.00   M                               Slovenia
+1.90   M                                Lesotho
+1.90   M                                 Gambia
+1.70   M                          Guinea Bissau
+1.70   M                                  Gabon
+1.40   M                              Swaziland
+1.30   M                              Mauritius
+1.30   M                                Estonia
+1.30   M                                Bahrain
+1.20   M                    Trinidad and Tobago
+1.20   M                            Timor-Leste
+1.20   M                                 Cyprus
+0.90   M                                   Fiji
+0.81   M                               Djibouti
+0.77   M                                Comoros
+0.74   M                                 Guyana
+0.73   M                                 Bhutan
+0.72   M                      Equatorial Guinea
+0.65   M                             Montenegro
+0.61   M                        Solomon Islands
+0.57   M                               Suriname
+0.54   M                             Cape Verde
+0.52   M                             Luxembourg
+0.42   M                      Brunei Darussalam
+0.41   M                                  Malta
+0.39   M                               Maldives
+0.34   M                                 Belize
+0.32   M                                Iceland
+0.32   M                                Bahamas
+0.29   M                               Barbados
+0.27   M                                Vanuatu
+0.20   M                                  Samoa
+0.19   M                  Sao Tome and Principe
+0.16   M                            Saint Lucia
+0.11   M                                  Tonga
+0.11   M                             Micronesia
+0.11   M                                Grenada
+0.10   M       Saint Vincent and the Grenadines
+0.10   M                               Kiribati
+0.09   M                             Seychelles
+0.09   M                    Antigua and Barbuda
+0.09   M                                Andorra
+0.07   M                               Dominica
+0.07   M                       Marshall Islands
+0.05   M                  Saint Kitts and Nevis
+0.04   M                          Liechtenstein
+0.03   M                             San Marino
+0.03   M                                 Monaco
+0.02   M                                  Palau
+0.01   M                                 Tuvalu
+0.01   M                                  Nauru
