@@ -23,17 +23,26 @@ import csv
 
 # load countries from csv and convert to a list of tuples (name, population)
 country_populations = []
-with open('UN.csv', 'r') as united_nations:
-    countries = csv.DictReader(
-        united_nations, ['country','continent','population','area'])
-    for country in countries:
-        # need to "float" the population, because it's a string:
-        country_populations.append((country['country'], float(country['population'])))
+try:
+    with open('UN.csv', 'r') as united_nations:
+        countries = csv.DictReader(
+            united_nations, ['country','continent','population','area'])
+        for country in countries:
+            # need to "float" the population, because it's a string:
+            country_populations.append((country['country'], float(country['population'])))
+except FileNotFoundError as e:
+    print(e)
 
-# sort country_populations by population:
-country_populations.sort(key=lambda a: a[1], reverse=True)
+else:
+    try:
+        # sort country_populations by population:
+        country_populations.sort(key=lambda a: a[1], reverse=True)
 
-with open('populations.txt', 'w') as file:
-    file.write(f"Population{'Country':>40}\n")
-    for country, population in country_populations:
-        file.write(f"{population: 8.2f}M {country:>40}\n")        
+        # write to file:
+        with open('populations.txt', 'w') as file:
+            file.write(f"Population{'Country':>40}\n")
+            for country, population in country_populations:
+                file.write(f"{population: 8.2f}M {country:>40}\n")      
+    # lazy, but here it is:  
+    except Exception as e:
+        print(e)

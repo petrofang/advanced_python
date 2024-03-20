@@ -17,6 +17,7 @@ contains well-named variables and is commented to indicate the tasks
 that are being completed. Output is also to be clearly formatted.
 '''
 from random import randrange
+
 count = None
 while not count:
     count = input("How many random numbers to generate?\n >>> ")
@@ -37,17 +38,25 @@ while not count:
         count = None
 
 print("What should we call the filename?")
+# prepare a default filename in case user wants to play games:
+default_file_name = f"{count}_random_numbers.txt"
 filename = input(" >>> ")
-# use a default filename if the user wants to play games:
-if not filename: print(f"using default filename: {count}_random_numbers.txt")
-filename = filename if filename else f"{count}_random_numbers.txt" 
 
-# write so many numbers to file, line by line
-with open(filename, 'w') as file:
+if not filename: print(f"using default filename: {default_file_name}")
+
+try:
+    # write so many numbers to file, line by line
+    file = open(filename, 'w')
+except FileNotFoundError:
+    print(f"that is a silly filename. We'll just use {default_file_name}.")
+    filename = default_file_name
+    file = open(filename, 'w')
+finally:
     for i in range(0, count):
         random_number = randrange(1, 100)
         print(f"writing to {filename}: {random_number}.")
         file.write(f"{random_number}\n")
+    file.close()
 
 
 

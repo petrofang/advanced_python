@@ -36,22 +36,33 @@ short_term_dems=[]
 short_term_reps=[]
 
 # find short-term presidents and sort by party.
-with open('presidential.csv', 'r') as presidents:
-    president_list = csv.DictReader(presidents)
-    for president in president_list: 
-        short_term=False       
-        if not president["start"].startswith("1/20"): short_term=True
-        if not president["end"].startswith("1/20"): short_term=True
-        if short_term: 
-            if president["party"] == "Democratic": 
-                short_term_dems.append(president["name"])
-            elif president["party"] == "Republican": 
-                short_term_reps.append(president["name"])
+# use "with open" to close automatically
+try:
+    with open('presidential.csv', 'r') as presidents:
+        president_list = csv.DictReader(presidents)
+        for president in president_list: 
+            short_term=False       
+            if not president["start"].startswith("1/20"): short_term=True
+            if not president["end"].startswith("1/20"): short_term=True
+            if short_term: 
+                if president["party"] == "Democratic": 
+                    short_term_dems.append(president["name"])
+                elif president["party"] == "Republican": 
+                    short_term_reps.append(president["name"])
+except FileNotFoundError as e:
+    # is a presidents.close() statement needed here?
+    print(e)
+    quit()    
 
-with open('partial_term_presidents.txt', 'w') as part:
-    part.write("Democratic Presidents:\n")
-    for president in short_term_dems:
-            part.write(f'{president} served an incomplete term.\n')  
-    part.write("\nRepublican Presidents:\n")
-    for president in short_term_reps:
-            part.write(f'{president} served an incomplete term.\n')
+# write partial-term dems and reps to file, using 'with open'
+try:
+    with open('partial_term_presidents.txt', 'w') as part:
+        part.write("Democratic Presidents:\n")
+        for president in short_term_dems:
+                part.write(f'{president} served an incomplete term.\n')  
+        part.write("\nRepublican Presidents:\n")
+        for president in short_term_reps:
+                part.write(f'{president} served an incomplete term.\n')
+except Exception as e:
+    # is part.close() needed here?
+     print(e)
