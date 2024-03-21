@@ -50,7 +50,6 @@ try:
                 elif president["party"] == "Republican": 
                     short_term_reps.append(president["name"])
 except FileNotFoundError as e:
-    # is a presidents.close() statement needed here?
     print(e)
     quit()    
 
@@ -64,5 +63,4 @@ try:
         for president in short_term_reps:
                 part.write(f'{president} served an incomplete term.\n')
 except Exception as e:
-    # is part.close() needed here?
-     print(e)
+    print(e)
