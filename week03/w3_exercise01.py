@@ -12,7 +12,7 @@ print(f"{array}\n")
 array[4:7] = 5
 print(f"{array}\n")
 
-array=np.array([i for i in range(10,100)])
+array=np.arange(10,100)
 print(f"{array}\n")
 
 array = np.array([rng.randint(10,100) for _ in range(10)])
