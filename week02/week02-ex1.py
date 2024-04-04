@@ -41,17 +41,18 @@ In another file write a main program which creates 2 objects of ChangePurse,
 import purse
 import random
 
-
+# initialize purses
 momsPurse = purse.ChangePurse(random.randint(1,10000)/100)
 grannysPurse = purse.ChangePurse(random.randint(1,10000)/100)
 
-
+# make comparisons
 print(f"momsPurse: {momsPurse}")
 print(f"grannysPurse: {grannysPurse}")
 if momsPurse > grannysPurse: print("mom has more money.")
 elif momsPurse < grannysPurse: print("granny has more money.")
 elif momsPurse == grannysPurse: print("mom and grannys money are the same")
 
+# perform transactions
 myWallet=purse.ChangePurse()
 myWallet.addChange(grannysPurse.removeChange(
     max(grannysPurse.balance, random.randint(1,100)/100)))
