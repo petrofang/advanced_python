@@ -139,6 +139,6 @@ STD:     0.340         0.250         0.280         0.200
 Catagories - compare min species category w/ full data (1 = >)
               Species1  Species2  Species3  
 sepal len         0         1         1
-sepal wid         1         1         1
+sepal wid         1         0         1
 petal len         0         1         1
 petal wid         0         1         1
