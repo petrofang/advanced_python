@@ -1,0 +1,283 @@
+Original Files
+[['Luke Skywalker' 'blond' 'blue' 'masculine']
+ ['C-3PO' '' 'yellow' 'masculine']
+ ['R2-D2' '' ' blue"' 'none']
+ ['Darth Vader' 'none' 'yellow' 'masculine']
+ ['Leia Organa' 'brown' 'brown' 'feminine']
+ ['Owen Lars' '"brown' 'light' 'male']
+ ['Beru Whitesun lars' 'brown' 'blue' 'feminine']
+ ['R5-D4' '' ' red"' 'none']
+ ['Biggs Darklighter' 'black' 'brown' 'masculine']
+ ['Obi-Wan Kenobi' '"auburn' 'fair' 'male']
+ ['Anakin Skywalker' 'blond' 'blue' 'masculine']
+ ['Wilhuff Tarkin' '"auburn' 'fair' 'male']
+ ['Chewbacca' 'brown' 'blue' 'masculine']
+ ['Han Solo' 'brown' 'brown' 'masculine']
+ ['Greedo' '' 'black' 'masculine']
+ ['Jabba Desilijic Tiure' '' ' brown"' 'hermaphroditic']
+ ['Wedge Antilles' 'brown' 'hazel' 'masculine']
+ ['Jek Tono Porkins' 'brown' 'blue' 'masculine']
+ ['Yoda' 'white' 'brown' 'masculine']
+ ['Palpatine' 'grey' 'yellow' 'masculine']
+ ['Boba Fett' 'black' 'brown' 'masculine']
+ ['IG-88' 'none' 'red' 'masculine']
+ ['Bossk' 'none' 'red' 'masculine']
+ ['Lando Calrissian' 'black' 'brown' 'masculine']
+ ['Lobot' 'none' 'blue' 'masculine']
+ ['Ackbar' 'none' 'orange' 'masculine']
+ ['Mon Mothma' 'auburn' 'blue' 'feminine']
+ ['Arvel Crynyd' 'brown' 'brown' 'masculine']
+ ['Wicket Systri Warrick' 'brown' 'brown' 'masculine']
+ ['Nien Nunb' 'none' 'black' 'masculine']
+ ['Qui-Gon Jinn' 'brown' 'blue' 'masculine']
+ ['Nute Gunray' 'none' 'red' 'masculine']
+ ['Finis Valorum' 'blond' 'blue' 'masculine']
+ ['Jar Jar Binks' 'none' 'orange' 'masculine']
+ ['Roos Tarpals' 'none' 'orange' 'masculine']
+ ['Rugor Nass' 'none' 'orange' 'masculine']
+ ['Ric OliÃ©' 'brown' 'blue' '']
+ ['Watto' 'black' ' grey"' 'male']
+ ['Sebulba' 'none' ' red"' 'male']
+ ['Quarsh Panaka' 'black' 'brown' '']
+ ['Shmi Skywalker' 'black' 'brown' 'feminine']
+ ['Darth Maul' 'none' 'yellow' 'masculine']
+ ['Bib Fortuna' 'none' 'pink' 'masculine']
+ ['Ayla Secura' 'none' 'hazel' 'feminine']
+ ['Dud Bolt' 'none' ' grey"' 'male']
+ ['Gasgano' 'none' ' blue"' 'male']
+ ['Ben Quadinaros' 'none' ' green' '']
+ ['Mace Windu' 'none' 'brown' 'masculine']
+ ['Ki-Adi-Mundi' 'white' 'yellow' 'masculine']
+ ['Kit Fisto' 'none' 'black' 'masculine']
+ ['Eeth Koth' 'black' 'brown' 'masculine']
+ ['Adi Gallia' 'none' 'blue' 'feminine']
+ ['Saesee Tiin' 'none' 'orange' 'masculine']
+ ['Yarael Poof' 'none' 'yellow' 'masculine']
+ ['Plo Koon' 'none' 'black' 'masculine']
+ ['Mas Amedda' 'none' 'blue' 'masculine']
+ ['Gregar Typho' 'black' 'brown' 'masculine']
+ ['CordÃ©' 'brown' 'brown' 'feminine']
+ ['Cliegg Lars' 'brown' 'blue' 'masculine']
+ ['Poggle the Lesser' 'none' 'yellow' 'masculine']
+ ['Luminara Unduli' 'black' 'blue' 'feminine']
+ ['Barriss Offee' 'black' 'blue' 'feminine']
+ ['DormÃ©' 'brown' 'brown' 'feminine']
+ ['Dooku' 'white' 'brown' 'masculine']
+ ['Bail Prestor Organa' 'black' 'brown' 'masculine']
+ ['Jango Fett' 'black' 'brown' 'masculine']
+ ['Zam Wesell' 'blonde' ' green' '']
+ ['Dexter Jettster' 'none' 'yellow' 'masculine']
+ ['Lama Su' 'none' 'black' 'masculine']
+ ['Taun We' 'none' 'black' 'feminine']
+ ['Jocasta Nu' 'white' 'blue' 'feminine']
+ ['Ratts Tyerell' 'none' ' blue"' 'male']
+ ['R4-P17' 'none' ' red"' '']
+ ['Wat Tambor' 'none' ' grey"' 'male']
+ ['San Hill' 'none' 'gold' 'masculine']
+ ['Shaak Ti' 'none' ' blue' '']
+ ['Grievous' 'none' ' white"' '']
+ ['Tarfful' 'brown' 'blue' 'masculine']
+ ['Raymus Antilles' 'brown' 'brown' 'masculine']
+ ['Sly Moore' 'none' 'white' '']
+ ['Tion Medon' 'none' 'black' 'masculine']
+ ['Finn' 'black' 'dark' 'masculine']
+ ['Rey' 'brown' 'hazel' 'feminine']
+ ['Poe Dameron' 'brown' 'brown' 'masculine']
+ ['BB8' 'none' 'black' 'masculine']
+ ['Captain Phasma' 'unknown' 'unknown' '']
+ ['PadmÃ© Amidala' 'brown' 'brown' 'feminine']]
+
+
+Data w/ extra blanks and " removed
+Luke Skywalker        blond       blue         masculine  
+C-3PO                             yellow       masculine  
+R2-D2                             None            none    
+Darth Vader           none        yellow       masculine  
+Leia Organa           brown       brown         feminine  
+Owen Lars             None        light           male    
+Beru Whitesun lars    brown       blue          feminine  
+R5-D4                             None            none    
+Biggs Darklighter     black       brown        masculine  
+Obi-Wan Kenobi        None        fair            male    
+Anakin Skywalker      blond       blue         masculine  
+Wilhuff Tarkin        None        fair            male    
+Chewbacca             brown       blue         masculine  
+Han Solo              brown       brown        masculine  
+Greedo                            black        masculine  
+Jabba Desilijic Tiure             None        hermaphroditic
+Wedge Antilles        brown       hazel        masculine  
+Jek Tono Porkins      brown       blue         masculine  
+Yoda                  white       brown        masculine  
+Palpatine             grey        yellow       masculine  
+Boba Fett             black       brown        masculine  
+IG-88                 none        red          masculine  
+Bossk                 none        red          masculine  
+Lando Calrissian      black       brown        masculine  
+Lobot                 none        blue         masculine  
+Ackbar                none        orange       masculine  
+Mon Mothma            auburn      blue          feminine  
+Arvel Crynyd          brown       brown        masculine  
+Wicket Systri Warrick brown       brown        masculine  
+Nien Nunb             none        black        masculine  
+Qui-Gon Jinn          brown       blue         masculine  
+Nute Gunray           none        red          masculine  
+Finis Valorum         blond       blue         masculine  
+Jar Jar Binks         none        orange       masculine  
+Roos Tarpals          none        orange       masculine  
+Rugor Nass            none        orange       masculine  
+Ric OliÃ©             brown       blue                    
+Watto                 black       None            male    
+Sebulba               none        None            male    
+Quarsh Panaka         black       brown                   
+Shmi Skywalker        black       brown         feminine  
+Darth Maul            none        yellow       masculine  
+Bib Fortuna           none        pink         masculine  
+Ayla Secura           none        hazel         feminine  
+Dud Bolt              none        None            male    
+Gasgano               none        None            male    
+Ben Quadinaros        none        green                   
+Mace Windu            none        brown        masculine  
+Ki-Adi-Mundi          white       yellow       masculine  
+Kit Fisto             none        black        masculine  
+Eeth Koth             black       brown        masculine  
+Adi Gallia            none        blue          feminine  
+Saesee Tiin           none        orange       masculine  
+Yarael Poof           none        yellow       masculine  
+Plo Koon              none        black        masculine  
+Mas Amedda            none        blue         masculine  
+Gregar Typho          black       brown        masculine  
+CordÃ©                brown       brown         feminine  
+Cliegg Lars           brown       blue         masculine  
+Poggle the Lesser     none        yellow       masculine  
+Luminara Unduli       black       blue          feminine  
+Barriss Offee         black       blue          feminine  
+DormÃ©                brown       brown         feminine  
+Dooku                 white       brown        masculine  
+Bail Prestor Organa   black       brown        masculine  
+Jango Fett            black       brown        masculine  
+Zam Wesell            blonde      green                   
+Dexter Jettster       none        yellow       masculine  
+Lama Su               none        black        masculine  
+Taun We               none        black         feminine  
+Jocasta Nu            white       blue          feminine  
+Ratts Tyerell         none        None            male    
+R4-P17                none        None                    
+Wat Tambor            none        None            male    
+San Hill              none        gold         masculine  
+Shaak Ti              none        blue                    
+Grievous              none        None                    
+Tarfful               brown       blue         masculine  
+Raymus Antilles       brown       brown        masculine  
+Sly Moore             none        white                   
+Tion Medon            none        black        masculine  
+Finn                  black       dark         masculine  
+Rey                   brown       hazel         feminine  
+Poe Dameron           brown       brown        masculine  
+BB8                   none        black        masculine  
+Captain Phasma        unknown     unknown                 
+PadmÃ© Amidala        brown       brown         feminine  
+
+
+BLUE EYES                Hair Color       Gender  
+Luke Skywalker             blond        masculine 
+Beru Whitesun lars         brown         feminine 
+Anakin Skywalker           blond        masculine 
+Chewbacca                  brown        masculine 
+Jek Tono Porkins           brown        masculine 
+Lobot                       none        masculine 
+Mon Mothma                 auburn        feminine 
+Qui-Gon Jinn               brown        masculine 
+Finis Valorum              blond        masculine 
+Ric OliÃ©                  brown                  
+Adi Gallia                  none         feminine 
+Mas Amedda                  none        masculine 
+Cliegg Lars                brown        masculine 
+Luminara Unduli            black         feminine 
+Barriss Offee              black         feminine 
+Jocasta Nu                 white         feminine 
+Tarfful                    brown        masculine 
+
+
+BROWN EYES               Hair Color       Gender  
+Leia Organa                brown         feminine 
+Biggs Darklighter          black        masculine 
+Han Solo                   brown        masculine 
+Yoda                       white        masculine 
+Boba Fett                  black        masculine 
+Lando Calrissian           black        masculine 
+Arvel Crynyd               brown        masculine 
+Wicket Systri Warrick       brown        masculine 
+Quarsh Panaka              black                  
+Shmi Skywalker             black         feminine 
+Mace Windu                  none        masculine 
+Eeth Koth                  black        masculine 
+Gregar Typho               black        masculine 
+CordÃ©                     brown         feminine 
+DormÃ©                     brown         feminine 
+Dooku                      white        masculine 
+Bail Prestor Organa        black        masculine 
+Jango Fett                 black        masculine 
+Raymus Antilles            brown        masculine 
+Poe Dameron                brown        masculine 
+PadmÃ© Amidala             brown         feminine 
+
+
+BLACK EYES               Hair Color       Gender  
+Greedo                                  masculine 
+Nien Nunb                   none        masculine 
+Kit Fisto                   none        masculine 
+Plo Koon                    none        masculine 
+Lama Su                     none        masculine 
+Taun We                     none         feminine 
+Tion Medon                  none        masculine 
+BB8                         none        masculine 
+
+
+YELLOW EYES              Hair Color       Gender  
+C-3PO                                   masculine 
+Darth Vader                 none        masculine 
+Palpatine                   grey        masculine 
+Darth Maul                  none        masculine 
+Ki-Adi-Mundi               white        masculine 
+Yarael Poof                 none        masculine 
+Poggle the Lesser           none        masculine 
+Dexter Jettster             none        masculine 
+
+
+ORANGE EYES              Hair Color       Gender  
+Ackbar                      none        masculine 
+Jar Jar Binks               none        masculine 
+Roos Tarpals                none        masculine 
+Rugor Nass                  none        masculine 
+Saesee Tiin                 none        masculine 
+
+
+OTHER EYES               Hair Color       Gender  
+R2-D2                                      none   
+Owen Lars                   None           male   
+R5-D4                                      none   
+Obi-Wan Kenobi              None           male   
+Wilhuff Tarkin              None           male   
+Jabba Desilijic Tiure                    hermaphroditic
+Wedge Antilles             brown        masculine 
+IG-88                       none        masculine 
+Bossk                       none        masculine 
+Nute Gunray                 none        masculine 
+Watto                      black           male   
+Sebulba                     none           male   
+Bib Fortuna                 none        masculine 
+Ayla Secura                 none         feminine 
+Dud Bolt                    none           male   
+Gasgano                     none           male   
+Ben Quadinaros              none                  
+Zam Wesell                 blonde                 
+Ratts Tyerell               none           male   
+R4-P17                      none                  
+Wat Tambor                  none           male   
+San Hill                    none        masculine 
+Shaak Ti                    none                  
+Grievous                    none                  
+Sly Moore                   none                  
+Finn                       black        masculine 
+Rey                        brown         feminine 
+Captain Phasma            unknown                 
