@@ -36,3 +36,51 @@ data = { 'Course': [ 'Financial Accounting', 'Microeconomics',
 
 20.)  Delete all data for the course “Financial Accounting” 
     from the DataFrame. Display the updated DataFrame."""
+
+import pandas as pd
+
+#8 
+data = { 'Course': [ 'Financial Accounting', 'Microeconomics', 
+    'Programming Fundamentals', 'Statistics', 'Data Science'],  
+    'No of Students': [150, 75, 200, 175, 125], 
+    'Department': ['Accountancy', 'Economics', 'CIS', 'Math', 'Math' ]  }
+data = pd.DataFrame(data)
+
+#9
+print(data)
+print()
+
+#10 
+print(data[['Course', 'Department']])
+print()
+
+#11
+data.
+
+#12
+
+#13
+data['Professor'] = ['Brown', 'Griffin', 'Sanchez', 'Chen', 'Pavone']
+print(data)
+print()
+
+#14
+
+#15
+data['Capacity'] = 200
+print(data)
+print()
+
+#16
+data = data.rename(columns={"No of Students":"Students"})
+
+#17
+data['Avail'] = data['Capacity'] - data['Students']
+print(data)
+print()
+
+#18
+
+#19
+
+#20
