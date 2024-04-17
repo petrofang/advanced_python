@@ -21,6 +21,31 @@
 """
 
 
-import pandas
+import pandas as pd
 
-vowels = pandas.Series()
+vowel_list = ['a', 'e', 'i', 'o', 'u'] # sorry, 'y' -- not today
+vowels = pd.Series(0, vowel_list) 
+
+vowels += 10
+print("\nvowels += 10")
+print(vowels)
+
+vowels = vowels / 2
+print("\nvowels = vowels / 2")
+print(vowels)
+
+vowels1 = pd.Series([2,5,6,3,8], vowels.index)
+print("\nvowels1 = pd.Series([2,5,6,3,8], vowels.index)")
+print(vowels1)
+
+vowels3 = vowels + vowels1
+print("\nvowels3 = vowels + vowels1")
+print(vowels3)
+
+
+print("\nvowels1-vowels")
+print(vowels1-vowels)
+
+print("\nvowels1.index = [v.upper() for v in vowel_list]")
+vowels1.index = [v.upper() for v in vowel_list]
+print(vowels1)
