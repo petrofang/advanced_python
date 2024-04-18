@@ -4,10 +4,10 @@ including statistical methods.
 
 1.) Create and output the following DataFrame
     Apples  Pears   Bananas
-0   150     250     250
-1   175     135     135
-2   200     325     325
-3   125     645     645     
+0      150    250       250
+1      175    135       135
+2      200    325       325
+3      125    645       645     
 
 2.) Update the row labels to:
         “Store 1”   “Store 2”   “Store 3”    “Store 4”         
@@ -42,5 +42,17 @@ import pandas as pd
 df = pd.DataFrame({'Apples': [150, 175, 200, 125],
                    'Pears': [250, 135, 325, 645],
                    'Bananas': [250, 135, 325, 645]})
+print(df)
+print()
 
-df.rename()
+#2
+for i in range(len(df)):
+    df = df.rename(index={i: f"Store {i+1}"})
+print(df)
+print()
+
+#3
+df = df.rename(columns={"Bananas":"Peaches"})
+print(df)
+print()
+
