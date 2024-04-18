@@ -51,13 +51,16 @@ print(data)
 print()
 
 #10 
-print(data[['Course', 'Department']])
+print(data.loc[:,['Course', 'Department']])
 print()
 
 #11
-data.
+print(data.loc[[0,3,4],['Course', 'Department']])
+print()
 
 #12
+print(f"rows: {len(data)}")
+print(f"cols: {len(data.columns)}")
 
 #13
 data['Professor'] = ['Brown', 'Griffin', 'Sanchez', 'Chen', 'Pavone']
@@ -65,6 +68,11 @@ print(data)
 print()
 
 #14
+data.loc[(len(data))] = {'Course':'Discrete Math', 
+                         'No of Students':65, 
+                         'Department':'Math', 
+                         'Professor':'Hasson'}
+# data.loc() brack 
 
 #15
 data['Capacity'] = 200
@@ -80,7 +88,13 @@ print(data)
 print()
 
 #18
+print(f"mean: {data['Students'].mean()}")
+print()
 
 #19
+print(f"max availability: {data['Avail'].max()}")
+print()
 
 #20
+data = data.drop(0, axis=0)
+print(data)
