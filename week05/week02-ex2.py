@@ -72,12 +72,21 @@ pr(df['Apples'].min())
 #7
 # okay I spent way too long trying to figure this out before looking
 # at the example output. I was trying to find which row had the maximum
-# sum of all columns 'max quantity of [any/all] fruit at any store' ... 
-# there must be a way to do this?
+# sum of all columns ie 'max quantity of [any/all] fruit at any store' ... 
+# There must be a way to do this; it's an interesting problem
 
 # pick a store, any store:
 r = random(0, len(df)-1)
 print('max fruit:')
 pr(df.iloc[[r]].max(axis=1))
 
+#8 I assume where instructions say "average" it means "sum"
+df['Total'] = df.sum(axis=1)
+pr(df)
 
+#9
+df.loc['Average'] = df.mean()
+pr(df)
+
+#10
+pr(df.iloc[:2])
