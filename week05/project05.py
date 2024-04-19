@@ -15,7 +15,7 @@ The file 'salesfig.csv' contains sales figures for five sales persons in INR.
     900000
 
 5.) Display the sales made by all sales persons in the year 2017.
-6.) Display the average  sales made in 2017.
+6.) Display the average sales made in 2017.
 7.) Find the maximum sales made in 2017.   
     Display the saleperson who sold the maximum sales in 2017.
 8.) Add data to Sales for salesman named 'Sumeet' where the sales made are
@@ -45,3 +45,16 @@ pr(df.columns[:])
 pr(df.iloc[-2:])
 
 #3
+pr(df.iloc[:,:2])
+
+#4
+df[2018] = [160000, 110000, 500000, 340000, 900000]
+# should we display it?
+pr(df)
+
+#5
+pr(df[['name','2017']])
+pr(f"max: {df['2017'].max()}")
+
+#6
+pr(f"avg: {df['2017'].mean()}")
