@@ -38,26 +38,28 @@ including statistical methods.
 
 import pandas as pd
 
+# abbreviation to print the dataframe
+def pr(df): print(f"{df}\n")
+
 #1
 df = pd.DataFrame({'Apples': [150, 175, 200, 125],
                    'Pears': [250, 135, 325, 645],
                    'Bananas': [250, 135, 325, 645]})
-print(df)
-print()
+pr(df)
 
 #2
 for i in range(len(df)):
     df = df.rename(index={i: f"Store {i+1}"})
-print(df)
-print()
+pr(df)
 
 #3
 df = df.rename(columns={"Bananas":"Peaches"})
-print(df)
-print()
+pr(df)
 
 #4
 df.loc['Store 5'] = [345, 350, 725]
-print(df)
-print()
+pr(df)
 
+#5
+df['Pears'] *= 2
+pr(df)
