@@ -48,13 +48,33 @@ pr(df.iloc[-2:])
 pr(df.iloc[:,:2])
 
 #4
-df[2018] = [160000, 110000, 500000, 340000, 900000]
+df['2018'] = [160000, 110000, 500000, 340000, 900000]
 # should we display it?
 pr(df)
 
 #5
 pr(df[['name','2017']])
-pr(f"max: {df['2017'].max()}")
+pr(f"tot: {df['2017'].sum()}")
 
 #6
 pr(f"avg: {df['2017'].mean()}")
+
+#7
+pr(f"max: {df['2017'].max()}")
+
+#8
+df.loc[len(df)] = {'name':'Sumeet','2014':1962,'2015':37800,'2016':52000,'2017':78438,'2018':38852}
+pr(df)
+
+#9
+del df['2014']
+pr(df)
+
+#10
+df = df.query("name != 'Kinshuk'")
+pr(df)
+
+input('press Enter to continue')
+# if we wanted the index to be the salesperson's name we might have done:
+df.set_index('name', drop=True, inplace=True)
+pr(df)
