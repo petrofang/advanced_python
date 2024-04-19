@@ -20,7 +20,7 @@ including statistical methods.
     and output the updated DataFrame.
         “Store 5”     245       350    725
 
-5.) Double the inventory of Pears.  Output the updated dataframe.
+5.) Double the inventory of Pears. Output the updated dataframe.
 
 6.) Output the minimum number of Apples at any store.
 
@@ -37,6 +37,7 @@ including statistical methods.
 """
 
 import pandas as pd
+from random import randint as random
 
 # abbreviation to print the dataframe
 def pr(df): print(f"{df}\n")
@@ -63,3 +64,20 @@ pr(df)
 #5
 df['Pears'] *= 2
 pr(df)
+
+#6
+print("least apples:")
+pr(df['Apples'].min())
+
+#7
+# okay I spent way too long trying to figure this out before looking
+# at the example output. I was trying to find which row had the maximum
+# sum of all columns 'max quantity of [any/all] fruit at any store' ... 
+# there must be a way to do this?
+
+# pick a store, any store:
+r = random(0, len(df)-1)
+print('max fruit:')
+pr(df.iloc[[r]].max(axis=1))
+
+
