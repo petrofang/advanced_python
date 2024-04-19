@@ -72,7 +72,6 @@ data.loc[(len(data))] = {'Course':'Discrete Math',
                          'No of Students':65, 
                          'Department':'Math', 
                          'Professor':'Hasson'}
-# data.loc() brack 
 
 #15
 data['Capacity'] = 200

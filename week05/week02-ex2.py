@@ -56,3 +56,8 @@ df = df.rename(columns={"Bananas":"Peaches"})
 print(df)
 print()
 
+#4
+df.loc['Store 5'] = [345, 350, 725]
+print(df)
+print()
+
