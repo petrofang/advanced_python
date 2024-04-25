@@ -82,10 +82,10 @@ df_struggling4 = df.loc[df['Test4'] < 70]
 print(f"\n{len(df_struggling4)} students struggled on Test 4.\n")
 
 # 8
-    # test 5 meaning the final?
-df_failing5 = df.loc[df.Final < 70].loc[df.Grade == 'F']
-print('Failures who scored less than 70 on "Test 5":', end='')
-print(len(df_failing5) / len(df) *100 , "%", sep="")
+    # 'Test 5' meaning test 4?
+df_failing4 = df_struggling4.loc[df_struggling4.Final < 70].loc[df_struggling4.Grade == 'F']
+print('Failures who scored less than 70 on "Test 4":', end=" ")
+print(len(df_failing4) / len(df_struggling4) *100 , "%", sep="")
 
 
 
