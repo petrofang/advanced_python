@@ -35,6 +35,7 @@
 """
 
 import pandas as pd
+import matplotlib.pyplot as plt
 
 FILE = "testgrades.csv"
 
@@ -83,11 +84,19 @@ print(f"\n{len(df_struggling4)} students struggled on Test 4.\n")
 
 # 8
     # 'Test 5' meaning test 4?
-df_failing4 = df_struggling4.loc[df_struggling4.Final < 70].loc[df_struggling4.Grade == 'F']
+df_failing4 = df_struggling4.loc[df_struggling4['Final'] < 70].loc[
+    df_struggling4.Grade == 'F']
 print('Failures who scored less than 70 on "Test 4":', end=" ")
 print(len(df_failing4) / len(df_struggling4) *100 , "%", sep="")
 
+# 9
+df_A = df.loc[df.Grade.str.contains('A')]
+df_B = df.loc[df.Grade.str.contains('B')]
+df_C = df.loc[df.Grade.str.contains('C')]
 
+# 10 
+
+plt.pie()
 
 
 
