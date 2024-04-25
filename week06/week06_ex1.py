@@ -43,17 +43,16 @@ FILE = "testgrades.csv"
 def pr(df : pd.DataFrame): 
     print(f"{df.to_string(index=False)}")
 
+# 1 
 try: 
     with open(FILE, 'r') as f:
         df = pd.read_csv(f)
 except Exception as e: quit() #  ¯\_(ツ)_/¯
-
-# 1 
 df = df.rename(columns={"Lastname":"LName","Firstname":"FName"})
 # assuming the space in "Test 4" was a typo
 
 # 2
-print(f"\n{len(df)} records in database:")
+print(f"\n{len(df)} students in the sample data:")
 
 # 3 
 pr(df[['LName','FName','SSN']].sort_values('LName'))
@@ -86,7 +85,7 @@ print(f"\n{len(df_struggling4)} students struggled on Test 4.\n")
     # 'Test 5' meaning test 4?
 df_failing4 = df_struggling4.loc[df_struggling4['Final'] < 70].loc[
     df_struggling4.Grade == 'F']
-print('Failures who scored less than 70 on "Test 4":', end=" ")
+print('Test 4 Strugglers failing the course:', end=" ")
 print(len(df_failing4) / len(df_struggling4) *100 , "%", sep="")
 
 # 9
@@ -95,17 +94,20 @@ df_B = df.loc[df.Grade.str.contains('B')]
 df_C = df.loc[df.Grade.str.contains('C')]
 
 # 10 
-
-plt.pie()
-
-
-
-
-
-
-
-
+plt.pie([len(df_A), len(df_B), len(df_C), 
+         (len(df) - (len(df_A) + len(df_B) + len(df_C)))],
+        startangle = 180,
+        counterclock= False,
+        labels = ["A's", "B's", "C's", "D's, F's"],
+        colors = ((0,1,0,1), (.75,1,0,1), 'orange', 'red'))
+plt.legend(title="Course Grades", loc='upper center')
+plt.show()
 
 
-# wait, how did George get a B with an average test score of 11? 
-#   Must be on the football team
+
+
+
+
+
+
+
