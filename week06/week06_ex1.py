@@ -2,7 +2,8 @@
 """Each row of the dataset in the file testgrades.csv file represents 
     one student in a course.
 
-
+1.)  Read in the testgrades.csv file and change the column headings to:
+“LName”   “FName”  “SSN”  “Test1” “Test2”  “Test3”  “Test 4”  “Final”  “Grade”
 
 2.) Output the total number of students in the sample.
 
@@ -45,6 +46,24 @@ try:
         df = pd.read_csv(f)
 except Exception as e: quit() #  ¯\_(ツ)_/¯
 
-# 1
+# 1 
 df = df.rename(columns={"Lastname":"LName","Firstname":"FName"})
+
+# 2
+print(f"\n{len(df)} records in database:")
+
+# 3 
+pr(df[['LName','FName','SSN']].sort_values('LName'))
+
+#4
+df_A_final = df[['LName', 'FName', 'Final']].loc[df['Final'] >= 90]
+print(df_A_final)
+pr(f"Students with 90+ on final: {len(df_A_final)/len(df)*100}%")
+
+#5
+df_failures = df[['LName', 'FName', 'Grade']].loc[df.Grade == "F"]
+print(df_failures)
+pr(f"Failures: {len(df_failures) / len(df) * 100}%")
+
+#6
 pr(df)
