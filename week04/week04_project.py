@@ -109,7 +109,7 @@ table(others[:,:-1])
 # there's got to be a better way to plot this 
 listed_already = np.concatenate((browns[1:], blues[1:], blacks[1:], yellows[1:], oranges[1:]))
 labels = ['blue', 'brown', 'black', 'yellow', 'orange', 'other']
-plt.pie([len(blues)-1, len(browns)-1, len(blacks)-1, len(yellows)-1, len(oranges)-1, len(data)- len(listed_already)], labels=labels, colors=('blue', 'brown', 'darkgrey', 'yellow', 'orange', 'green'), autopct="%1.0f")
+plt.pie([len(blues), len(browns), len(blacks), len(yellows), len(oranges), len(data)- len(listed_already)], labels=labels, colors=('blue', 'brown', 'darkgrey', 'yellow', 'orange', 'green'), autopct="%1.0f")
 plt.title("Eye Colors")
 plt.show()
 
@@ -131,7 +131,8 @@ blonds=get_hair_color(blues, 'blond')
 brunes=get_hair_color(blues, 'brown')
 blacks=get_hair_color(blues, 'black')
 
-plt.bar(['blonds', 'brunes', 'black-haired folks'], [len(blonds), len(brunes), len(blacks)], color='cyan', width=.618)
+others = len(blues) - (len(blonds) + len(brunes) + len(blacks))
+plt.bar(['Blonde', 'Brown', 'Black', 'Other'], [len(blonds), len(brunes), len(blacks), others], color='cyan', width=.618)
 plt.ylabel('Number of Characters')
 plt.title("Hair color of blue-eyes")
 plt.show()
