@@ -75,7 +75,7 @@ print('min/max grades on the final:')
 pr(pd.concat([df[['LName', 'FName', 'Final']].loc[df.Final == min(df.Final)], 
               df[['LName', 'FName', 'Final']].loc[df.Final == max(df.Final)]]))
     # must be Final because it's numerical
-    # with min|max(df.Grade), 'A' would be min and 'F' max!
+    # with min|max(df.Grade), 'A' would be min and 'F' max. 
 
 # 7 
 df_struggling4 = df.loc[df['Test4'] < 70]
@@ -97,10 +97,12 @@ df_C = df.loc[df.Grade.str.contains('C')]
 plt.pie([len(df_A), len(df_B), len(df_C), 
          (len(df) - (len(df_A) + len(df_B) + len(df_C)))],
         startangle = 180,
-        counterclock= False,
-        labels = ["A's", "B's", "C's", "D's, F's"],
+        counterclock = False,
+        labels = ["A's", "B's", "C's", "D's & F's"],
+        labeldistance = None,
+        autopct="%.0f",
         colors = ((0,1,0,1), (.75,1,0,1), 'orange', 'red'))
-plt.legend(title="Course Grades", loc='upper center')
+plt.legend(title="Course Grades")
 plt.show()
 
 
