@@ -100,7 +100,8 @@ plt.pie([len(df_A), len(df_B), len(df_C),
         counterclock = False,
         labels = ["A's", "B's", "C's", "D's & F's"],
         labeldistance = None,
-        autopct="%.0f",
+        autopct="%.1f pct", # what if I wanted a % sign instead of pct?
+                            # it raises an exception
         colors = ((0,1,0,1), (.75,1,0,1), 'orange', 'red'))
 plt.legend(title="Course Grades")
 plt.show()
